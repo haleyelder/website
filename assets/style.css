@@ -1,23 +1,69 @@
+body {
+  background-color: #F5F5F5 !important;
+}
+nav {
+  background-color: teal;
+}
+
+nav a:hover {
+  color: white;
+  /* text-decoration: underline; */
+}
+
+.navbar ul .nav-item  {
+  list-style-type: none;
+  float:left;
+  padding: 12px 15px 0 0;
+  font-size: 18px;
+}
+
+nav > ul > li.nav-item.title-name > a{
+  font-size: 20px;
+  padding: 0px 2px 0 0;
+  font-weight:600;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.about {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.about .inner-about{
+  background-color: darkgray;
+  color: white;
+  padding: 10px;
+}
+
+.container.about .socials {
+  margin: 30px 0;
+  background-color: goldenrod;
+padding: 20px;
+}
 
 .socials a i {
   font-size: 40px;
 }
 
-.crafty div {
-  margin: 20px 0;
-  text-align: center;
+.work-panel {
+  background-color: darkcyan;
+  color: white;
+  margin: 10px 0 0 0;
+  padding: 15px;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+.work-panel a.btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
+.work-panel a.btn:hover {
+  background-color: white;
+  color: black;
+}
