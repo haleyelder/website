@@ -4,22 +4,22 @@ var xhr = new XMLHttpRequest();
 xhr.onload = function () {
 	if (xhr.status >= 200 && xhr.status < 300) {
         let response = JSON.parse(xhr.response)
-        // console.log(response)
+        console.log(response)
     
         let recentPosts = document.getElementById("recent-posts");
         let recentPostLength = response.length;
 
        for (var i = 0; i < recentPostLength; ++i) {
            var titleItems = document.createElement("div");
+
+           // to add; response[i].tags or tag_list
+           // update descriptions for posts 
             
            // recent posts
-           titleItems.innerHTML = "<h4>" + response[i].title + "</h4><div><em>" + response[i].readable_publish_date + "</em></div>"
-           
+           titleItems.innerHTML = "<div class='blog-post'><a href='" + response[i].url + "' target='_blank'><h4>" + response[i].title + "</h4><div><em>" + response[i].readable_publish_date + "</em></div><div>" + response[i].description + "</div></a></div>"           
 
            recentPosts.appendChild(titleItems);
-
-       }
-
+           }
         }
      };
 
