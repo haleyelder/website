@@ -1,6 +1,11 @@
 body {
   background-color: #F5F5F5 !important;
 }
+
+.center {
+  text-align: center;
+}
+
 nav {
   background-color: teal;
 }
@@ -34,13 +39,26 @@ nav > ul > li.nav-item.title-name > a{
   padding: 20px;
 }
 
+.about a {
+  color: white;
+  text-decoration: none;
+}
+
+.about a:hover {
+  color: goldenrod;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
 .about .inner-about{
-  background-color: darkgray;
+  background-color: #2a2a2a;
   color: white;
   padding: 10px;
 }
 
-.container .about .socials {
+.container .socials {
   margin: 30px 0;
   background-color: goldenrod;
   padding: 20px;
@@ -48,13 +66,19 @@ nav > ul > li.nav-item.title-name > a{
 
 .socials a i {
   font-size: 40px;
+  color: black;
+}
+
+.socials a i:hover {
+  color: white;
 }
 
 .work-panel {
-  background-color: darkcyan;
+  background-color: teal;
   color: white;
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 15px;
+  box-shadow: 5px 5px gray;
 }
 
 .work-panel a.btn {
