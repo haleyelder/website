@@ -58,18 +58,18 @@ nav > ul > li.nav-item.title-name > a{
   padding: 10px;
 }
 
-.container .socials {
+div.contact {
   margin: 30px 0;
   background-color: goldenrod;
   padding: 20px;
 }
 
-.socials a i {
+.contact a i {
   font-size: 40px;
   color: black;
 }
 
-.socials a i:hover {
+.contact a i:hover {
   color: white;
 }
 
@@ -92,10 +92,14 @@ nav > ul > li.nav-item.title-name > a{
   color: black;
 }
 
+.posts-title {
+  margin-top: 20px;
+}
 .blog-post {
-  background-color: gray;
+  background-color: lightgray;
   padding: 30px;
   margin-top: 15px;
+  box-shadow: 5px 5px teal;
 }
 .blog-post a {
   text-decoration: none;
@@ -103,5 +107,13 @@ nav > ul > li.nav-item.title-name > a{
 }
 
 .blog-post a:hover {
-  color: white
+  color: slategray;
+}
+
+#contact a {
+  width: 15%;
+}
+
+.socials, footer {
+  text-align: center;
 }
