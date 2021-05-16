@@ -1,5 +1,5 @@
 body {
-  background-color: #F5F5F5 !important;
+  background-color: #F5F5F5 ;
 }
 
 .center {
@@ -12,7 +12,8 @@ nav {
 
 nav a:hover {
   color: white;
-  /* text-decoration: underline; */
+  border-bottom: 2px solid goldenrod;
+  margin-bottom: 2px;
 }
 
 .navbar ul .nav-item  {
@@ -40,13 +41,15 @@ nav > ul > li.nav-item.title-name > a{
 }
 
 .about a {
-  color: white;
+  color: #00b3b3;
   text-decoration: none;
 }
 
 .about a:hover {
-  color: goldenrod;
+  border-bottom: 2px solid goldenrod;
+  color: #00b3b3;
 }
+
 
 .profile-pic {
   border-radius: 50%;
@@ -116,4 +119,21 @@ div.contact {
 
 .socials, footer {
   text-align: center;
+}
+
+.learn-listing {
+  margin-top: 20px;
+  
+}
+
+
+.learn-listing a {
+  color: #00b3b3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learn-listing a:hover {
+  border-bottom: 2px solid goldenrod;
+  color: #00b3b3;
 }
