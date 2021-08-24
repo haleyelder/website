@@ -137,3 +137,7 @@ div.contact {
   border-bottom: 2px solid goldenrod;
   color: #00b3b3;
 }
+
+section > div > div > ul > p {
+  margin: 0 0 0 28px;
+}
