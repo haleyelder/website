@@ -58,7 +58,12 @@ nav > ul > li.nav-item.title-name > a{
 .about .inner-about{
   background-color: #2a2a2a;
   color: white;
-  padding: 10px;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.container.about > div > div > div > div.col-7 {
+  margin-top:16px;
 }
 
 div.contact {

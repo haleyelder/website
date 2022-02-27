@@ -3,19 +3,20 @@ var xhr = new XMLHttpRequest();
 xhr.onload = function () {
 	if (xhr.status >= 200 && xhr.status < 300) {
         let response = JSON.parse(xhr.response)
-        //console.log(response)
+        console.log(response)
     
-        let recentPosts = document.getElementById("recent-posts");
-        let recentPostLength = response.length;
+        let recentPostsBlog = document.getElementById("recent-posts-blog");
+        let recentPostsHome = document.getElementById("recent-posts-home");
 
-       for (var i = 0; i < recentPostLength; ++i) {
-           var titleItems = document.createElement("div");
+        for (let i = 0; i < 6; ++i) {
+           let titleItemsBlog = document.createElement("div");
             
            // recent posts
-           titleItems.innerHTML = "<div class='blog-post'><a href='" + response[i].url + "' target='_blank'><h4>" + response[i].title + "</h4><div><em>" + response[i].readable_publish_date + "</em></div><div>" + response[i].description + "</div></a></div>"           
+           titleItemsBlog.innerHTML = "<div class='blog-post'><a href='" + response[i].url + "' target='_blank'><h4>" + response[i].title + "</h4><div><em>" + response[i].readable_publish_date + "</em></div><div>" + response[i].description + "</div></a></div>"           
 
-           recentPosts.appendChild(titleItems);
+           recentPostsBlog.appendChild(titleItemsBlog);
            }
+
         }
      };
 
