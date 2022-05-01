@@ -1,137 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Haley Elder | Portfolio</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Haley Elder | Portfolio </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-    <link rel="stylesheet" href="./assets/style.css">
-		<script src="https://kit.fontawesome.com/b8b10726aa.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/b8b10726aa.js" crossorigin="anonymous"></script>        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top" style="border-bottom: 1px solid teal">Haley Elder</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#posts">Posts</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#">Self Curriculum</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-      <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <!-- Masthead-->
+        <header class="masthead" id="about">
+            <div class="container-fluid h-100 text-white">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./assets/img/profile-pic.jpg" height="300" alt="HE profile pic" class="profile-pic" />
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <p class="text-white-75 mb-5"> 
+                            <h3 style="text-align: left; border-bottom: 2px solid goldenrod"><em>Hi there, I'm Haley Elder</em></h3>                            
+                            <p> I'm a web developer based in Portland, Oregon currently working on enhancing my fullstack web skill set using Javascript, Python, and a little bit of Java. </p>
+                            <hr>
+                            <p style="text-decoration: underline">Interests/Communities </p>
+                            <p>&#9702; <a href="https://www.womenwhocode.com/portland" target="_blank">Women Who Code Member</a></a></p> 
+                            <p>&#9702 <a href="https://community.codenewbie.org/codenewbie/haley-elder-the-environmentalist-coder-2nb6" target="_blank">CodeNewbies - Spotlight</a></p> 
+                            <p>&#9702; <a href="https://the-collab-lab.codes/" target="_blank">Collabie</a> (Cohort 4)</p>
+                        <p>&#9702; Crafterer, cinephile, and occasionally outdoorsy </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Portfolio-->
+              <div id="portfolio">
+                <div class="container-fluid">
+                    <h2 class="text-center"> Projects </h2>
+                    <hr class="divider">
+                    <div class="row g-0">
+
+                      <div class="col-md-6">
+                          <div class="portfolio-box">
+                              <div class="project-title">Watchlist Data Analysis
+                              </br>
+                                  <span class="description"><em>Visual representation of a year's worth of tv and movies watched</em></span>
+                              </div>
+                              <div class="project-links">
+                                  <span class="live-link"><a href="https://watchlist-data-analysis.netlify.app/" target="_blank"> <i class="fa-solid fa-link"></i>Live Link</a></span>
+                                  <span class="repo-link"><a href="https://github.com/haleyelder/watchlist-dataviz" target="_blank"> <i class="fa-brands fa-github"></i> Github</a></span>
+                              </div>
+                          </div>
+                      </div>  
+                      <div class="col-md-6">
+                        <div class="portfolio-box">
+                            <div class="project-title">Technical Requirements Chrome Extension
+                            </br>
+                            <span class="description"><em>Chrome extension to assist DNS record validation</em></span>
+                            </div>
+                            <span></span>
+                            <div class="project-links">
+                                <span class="live-link"><a href="https://codepen.io/haleyelder/full/dQwGEg" target="_blank"> <i class="fa-solid fa-link"></i>Live Link</a></span>
+                                <span class="repo-link"><a href="https://github.com/haleyelder/ao-extension" target="_blank"> <i class="fa-brands fa-github"></i> Github</a></span>
+
+                          </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-6">
+                        <div class="portfolio-box">
+                            <div class="project-title">Weather Forecast
+                            </br>
+                            <span class="description"><em>Search a location's current and 3 day forecast </em></span>
+                            </div>
+                            <div class="project-links">
+                                <span class="live-link"><a href="https://haleyelder.github.io/weather-forecast/" target="_blank"> <i class="fa-solid fa-link"></i>Live Link</a></span>
+                                <span class="repo-link"><a href="https://github.com/haleyelder/weather-forecast" target="_blank"> <i class="fa-brands fa-github"></i> Github</a></span>
+
+                          </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-6">
+                        <div class="portfolio-box">
+                            <div class="project-title">Markdown Previewer
+                            </br>
+                            <span class="description"><em>Browser based markdown preview editor </em></span>
+                            </div>
+                            <div class="project-links">
+                                <span class="live-link"><a href="#"> <i class="fa-solid fa-link"></i>Live Link</a></span>
+                                <span class="repo-link"><a href="#"> <i class="fa-brands fa-github"></i> Github</a></span>
+
+                          </div>
+                        </div>
+                    </div>  
+                        
+                    </div>    
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42616953-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-42616953-1');
-    </script>
-
-
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar">
-    <ul>
-      <li class="nav-item title-name" >
-      
-        <a href="">Haley Elder</a>
-      </li>
-      <li class="nav-item">
-        <a href="#contact">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a href="blog.html" target="_blank">Blog</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-
-  <section class="container about">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto">
-        <div class="row inner-about">
-          <div class="col-5 center">
-            <p><em>Hi! I am</em></p>
-            <h2>Haley Elder</h2>
-           
-            <br>
-            <img class="img-fluid profile-pic" src="./assets/profile.png" width="200"title="Haley Elder Profile photo" alt="Haley Elder Profile"/>
-          </div>
-          <div class="col-7">
-           
-            <p> I'm a self taught developer based in Portland, Oregon. So far, I've worked with and ongoing learning with JavaScript, Python, and, more recently, Java. </p>
-            <hr>
-            <p>&#9702; Web Developer </p>
-            <p>&#9702; <a href="https://www.womenwhocode.com/portland" target="_blank">Women Who Code Member</a></a></p>  
-            <p>&#9702; <a href="https://the-collab-lab.codes/" target="_blank">Collabie</a> (Cohort 4)</p>
-           <p>&#9702; Crafterer, cinephile, and occasionally outdoorsy </p>
-          
-          </div>
-        </div>
-    
-      </div>
+                </div>
+            </div>
      
-      </div>
-    </div>
-  </section>
-
-  <section class="container work">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto">
-        <h3> Recent Projects</h3>
-        <div class="work-panel">
-          <h4>Watchlist Data Analysis</h4>
-          <p>A data tracking, analysis, and visualization of all movies and tv shows I watched from Feb 2021 to Feb 2022</p>
-            <a class="btn" href="https://watchlist-data-analysis.netlify.app/" target="_blank" role="button">Live Site</a>
-            <a class="btn" href="https://github.com/haleyelder/watchlist-dataviz" target="_blank"  role="button"><i class="fab fa-github"></i> Code</a>
-        </div> 
-        <div class="work-panel">
-            <h4>Technical Requirements Chrome Extension</h4>
-            <p>This chrome extension is used to speed up checking DNS records for Technical Solutions Engineer's usage at my employer. This opens MX Toolbox in a new tab depending on the domains and records chosen in the dropdowns</p>
-              <a class="btn" href="https://codepen.io/haleyelder/full/dQwGEg" target="_blank" role="button">Codepen 'Live Page'</a>
-              <a class="btn" href="https://github.com/haleyelder/ao-extension" target="_blank"  role="button"><i class="fab fa-github"></i> Code</a>
-          </div>
-
-          <div class="work-panel">
-            <h4>Weather Forecast</h4>
-            <p>Displaying the future weather forecast based on your location built with React and Weather.</p>
-            <a class="btn" href="https://haleyelder.github.io/weather-forecast/" target="_blank" title="Weather Forecast" >Live Site</a>
-            <a class="btn" href="https://github.com/haleyelder/weather-forecast" target="_blank"  role="button"><i class="fab fa-github"></i> Code</a>
-          </div>
-
-          <div class="work-panel">
-            <h4>Markdown Previewer</h4>
-            <p>A browser based markdown previewer and editor built in React. </p>
-            <a class="btn" href="http://profuse-toys.surge.sh/" target="_blank" title="Markdown Previewer" >Live Site </a>
-              <a class="btn" href="https://github.com/haleyelder/markdown-previewer" target="_blank"  role="button"><i class="fab fa-github"></i> Code</a>
-          </div>
-    </div>
-  </div>
-  </section>
-  <section class="container" id="contact">
-    <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto contact">
-        <h3>Contact Me </h3>
-        <div class="socials">
-          <a class="btn" href="https://www.twitter.com/haley_elder" target="_blank"  role="button" title="Haley Elder Twitter"><i class="fab fa-twitter"></i></a>
-          <a class="btn" href="mailto:hello@haleyelder.com" role="button" title="Email Haley Elder"><i class="far fa-envelope"></i></a>
-          <a class="btn" href="https://github.com/haleyelder" target="_blank"  role="button" title="Haley Elder Github"><i class="fab fa-github"></i></a>
-          <a class="btn" href="https://dev.to/haleyelder" target="_blank"  role="button" title="Haley Elder Dev.to"><i class="fab fa-dev"></i></a>
-        </div>
-      </div>
-     </div>
-    </section>
-  
-</main>
-
-<footer class="text-muted py-5">
-  <div class="container">
- 
-    <p class="mb-1">&copy; Haley Elder | 2021 </p>
- 
-  </div>
-</footer>
-      
-
-  </body>
+        <!-- Contact-->
+        <section class="page-section" id="posts">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Recent Posts</h2>
+                <hr class="divider"> 
+                <div id="recent-posts-blog"></div>
+                <br>
+                <a class="btn btn-xl" href="https://www.dev.to/haleyelder" target="_blank">Read More >></a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section bg-dark white-text" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Reach Me</h2>
+                        <hr class="divider" />
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                        <div class="mt-5 me-2">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-envelope"></i></div>
+                            <!-- <h3 class="h4 mb-2">Sturdy Themes</h3> -->
+                            <a href="mailto:hello@haleyelder.com"> <p class="text-muted mb-0">Email</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                        <div class="mt-5 me-2">
+                            <div class="mb-3">
+                                <i class="fa-brands fa-twitter"></i></div>
+                            <!-- <h3 class="h4 mb-2">Sturdy Themes</h3> -->
+                            <a href="https://www.twitter.com/haley_elder" target="_blank"> <p class="text-muted mb-0">Twitter</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                        <div class="mt-5 me-2">
+                            <div class="mb-3"><i class="fa-brands fa-github"></i></div>
+                            <!-- <h3 class="h4 mb-2">Made with Love</h3> -->
+                            <a href="https://www.github.com/haleyelder" target="_blank"><p class="text-muted mb-0">Github</p></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                        <div class="mt-5 me-2">
+                            <div class="mb-3"><i class="fa-brands fa-linkedin"></i></div>
+                            <!-- <h3 class="h4 mb-2">Up to Date</h3> -->
+                            <a href="https://www.linkedin.com/in/haleyelder" target="_blank"> <p class="text-muted mb-0">LinkedIn</p></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-3 col-sm-6 text-center">
+                        <div class="mt-5 me-2">
+                            <div class="mb-3"><i class="fa-brands fa-dev"></i></div>
+                            <!-- <h3 class="h4 mb-2">Ready to Publish</h3> -->
+                            <a href="https://www.dev.to/haleyelder" target="_blank"><p class="text-muted mb-0">Dev.to</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted"> Haley Elder &copy; 2022</div></div>
+            </div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+     
+    </body>
 </html>
