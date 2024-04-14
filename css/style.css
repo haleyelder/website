@@ -1,0 +1,142 @@
+nav {
+  background-color: #3c3c3c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+nav ul {
+  padding: 20px 0 4px 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: #03c8c8;
+  border-bottom: 3px solid goldenrod;
+}
+.intro {
+  padding: 100px 40px 30px;
+  background-color: teal;
+  color: white;
+}
+.profile-pic {
+  text-align: center;
+}
+.intro-text {
+  padding: 10px;
+}
+.intro-text a {
+  color: white;
+  text-underline-offset: 5px;
+}
+.intro-text a:hover {
+  text-decoration-color: goldenrod;
+}
+
+.projects {
+  background-color: lightgray;
+}
+.projects h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #3c3c3c;
+}
+.project-item {
+  text-align: center;
+  margin: 30px 15px;
+  box-shadow: 6px 6px 5px #696969;
+}
+
+.project-item img {
+  width: 100%;
+  opacity: 60%;
+
+}
+
+
+.project-item img:hover {
+  filter: grayscale(100%);
+
+  transition: 500ms;
+}
+
+.project-info {
+  padding: 8px;
+  background-color: #3c3c3c;
+  color: white;
+  margin: 0 auto;
+}
+
+.project-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.project-item a:hover {
+  color: #03c8c8;
+  border-bottom: 2px solid goldenrod;
+}
+
+.project-info p {
+  font-size: 18px;
+}
+
+
+.posts {
+  background-color: teal;
+  color: white;
+}
+
+.projects,
+.posts,
+.about,
+.contact {
+  padding: 30px 40px;
+}
+
+.blog-post {
+  height: auto;
+  background-color: #3c3c3c;
+  padding: 10px;
+
+}
+
+.contact {
+  background-color: #3c3c3c;
+  color: white;
+  text-align: center;
+}
+.contact ul {
+  padding: 30px 0;
+}
+.contact li {
+  list-style-type: none;
+  display: inline;
+  font-size: 35px;
+  padding: 20px;
+}
+.contact i {
+  color: white;
+}
+.contact i:hover {
+  color: goldenrod;
+}
+.copyright {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .intro {
+    padding: 120px 30px 46px;
+  }
+}
