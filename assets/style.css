@@ -60,9 +60,7 @@ nav a:hover {
 .project-item img {
   width: 100%;
   opacity: 60%;
-
 }
-
 
 .project-item img:hover {
   filter: grayscale(100%);
@@ -91,10 +89,22 @@ nav a:hover {
   font-size: 18px;
 }
 
-
 .posts {
   background-color: teal;
   color: white;
+}
+
+.blog-links {
+  text-align: center;
+  background-color: #3c3c3c;
+}
+.blog-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  border-bottom: 2px solid goldenrod;
 }
 
 .projects,
@@ -108,9 +118,12 @@ nav a:hover {
   height: auto;
   background-color: #3c3c3c;
   padding: 10px;
-
+  margin: 20px;
 }
-
+.blog-post a {
+  color: white;
+  text-decoration: none;
+}
 .contact {
   background-color: #3c3c3c;
   color: white;
