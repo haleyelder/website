@@ -4,6 +4,7 @@ nav {
   top: 0;
   width: 100%;
   z-index: 1;
+  border-bottom: 1px solid goldenrod;
 }
 nav ul {
   padding: 20px 0 4px 0;
@@ -12,10 +13,11 @@ nav ul li {
   list-style-type: none;
   display: inline;
   text-align: center;
-  padding: 20px;
-  font-size: 18px;
+  padding: 14px;
+  font-size: 20px;
   font-weight: 600;
 }
+
 nav a {
   text-decoration: none;
   color: white;
@@ -64,7 +66,6 @@ nav a:hover {
 
 .project-item img:hover {
   filter: grayscale(100%);
-
   transition: 500ms;
 }
 
@@ -89,6 +90,13 @@ nav a:hover {
   font-size: 18px;
 }
 
+.projects,
+.posts,
+.about,
+.contact {
+  padding: 30px 40px;
+}
+
 .posts {
   background-color: teal;
   color: white;
@@ -102,27 +110,29 @@ nav a:hover {
   color: white;
   text-decoration: none;
 }
-
+.blog-img {
+  float: left;
+  max-width: 300px;
+  margin-right: 30px;
+}
 .blog-post a:hover {
   border-bottom: 2px solid goldenrod;
 }
-
-.projects,
-.posts,
-.about,
-.contact {
-  padding: 30px 40px;
-}
-
 .blog-post {
   height: auto;
   background-color: #3c3c3c;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
 }
 .blog-post a {
   color: white;
   text-decoration: none;
+}
+
+.blog-post1 a {
+  font-size: 18px;
+  border-bottom: 3px solid goldenrod;
+  font-weight: 600;
 }
 .contact {
   background-color: #3c3c3c;
@@ -130,7 +140,7 @@ nav a:hover {
   text-align: center;
 }
 .contact ul {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .contact li {
   list-style-type: none;
@@ -148,8 +158,39 @@ nav a:hover {
   text-align: center;
 }
 
+.lip {
+  margin: 120px 0 0 20px;
+  color: white;
+}
+.lip a {
+  color: white;
+  text-underline-offset: 5px;
+}
+
+.lip a:hover {
+  color: #03c8c8;
+  border-bottom: 1px solid goldenrod;
+}
+
+.lip h4 {
+  text-decoration: underline;
+}
+
+
 @media only screen and (min-width: 1200px) {
   .intro {
     padding: 120px 30px 46px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul li {
+    padding: 14px;
+    font-size: 17px;
+  }
+
+  .blog-img {
+    max-width: 100%;
+    margin-bottom: 10px;
   }
 }
