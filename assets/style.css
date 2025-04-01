@@ -176,6 +176,23 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.blog-title-link {
+  text-align: center;
+  color: white;
+
+}
+
+.blog-title-link a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid goldenrod;
+}
+
+.blog-title-link a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
 
 @media only screen and (min-width: 1200px) {
   .intro {
